@@ -22,6 +22,8 @@ class GetBucketListsRequest extends AbstractRequest
      */
     protected function checkTrafficParams()
     {
-
+        if (isset($this->params['page']) && !is_numeric($this->params['page'])) {
+            throw new SDKException('the param : page is invalid');
+        }
     }
 }

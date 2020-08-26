@@ -9,8 +9,8 @@ use kuaikuaicloud\oss\Requests\GetBucketListsRequest;
 /**
  * Class Client
  * @package oss
- * @method AddBucketRequest;
- * @method GetBucketListsRequest;
+ * @method Response AddBucketRequest;
+ * @method Response GetBucketListsRequest;
  */
 class Client
 {

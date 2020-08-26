@@ -6,7 +6,7 @@ use kuaikuaicloud\oss\Exception\SDKException;
 
 /**
  * add buckets
- * Class AddRequest
+ * Class AddBucketRequest
  * @package kuaikuaicloud\oss\Requests\Buckets
  */
 class AddBucketRequest extends AbstractRequest
