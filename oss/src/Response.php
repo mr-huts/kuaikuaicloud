@@ -46,4 +46,13 @@ class Response
         return $this->response['errCode'];
     }
 
+    /**
+     * 获取返回的消息
+     * @return mixed
+     */
+    public function getMessage()
+    {
+        return $this->response['msg'];
+    }
+
 }

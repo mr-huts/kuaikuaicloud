@@ -9,3 +9,5 @@ var_dump($result = $client->GetBucketListsRequest());
 var_dump($result->isOk());
 
 var_dump($result->getData());
+
+var_dump($result->);
