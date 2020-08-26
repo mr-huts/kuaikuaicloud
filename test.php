@@ -10,4 +10,4 @@ var_dump($result->isOk());
 
 var_dump($result->getData());
 
-var_dump($result->);
+var_dump($result->getMessage());
