@@ -94,7 +94,7 @@ class Http
     public function jsonRequest($url, $data = [], $returnArray = true)
     {
         return $this->request($url, json_encode($data, 320), 'post', [
-            'Content-Type: application/json'
+            CURLOPT_HTTPHEADER  => ['Content-Type: application/json']
         ], $returnArray);
     }
 
