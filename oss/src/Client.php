@@ -3,14 +3,44 @@
 namespace kuaikuaicloud\oss;
 
 use kuaikuaicloud\oss\Exception\SDKException;
-use kuaikuaicloud\oss\Requests\AddBucketRequest;
-use kuaikuaicloud\oss\Requests\GetBucketListsRequest;
 
 /**
  * Class Client
  * @package oss
- * @method Response AddBucketRequest;
- * @method Response GetBucketListsRequest;
+ * @method Response AbstractRequest($params)
+ * @method Response AddBucketLifecycleRequest($params)
+ * @method Response AddBucketRequest($params)
+ * @method Response AddBucketTagsRequest($params)
+ * @method Response CreateFolderRequest($params)
+ * @method Response DeleteBucketLifecycleRequest($params)
+ * @method Response DeleteBucketPolicyRequest($params)
+ * @method Response DeleteBucketRequest($params)
+ * @method Response DeleteBucketTagsRequest($params)
+ * @method Response DeleteFolderRequest($params)
+ * @method Response DeleteObjectRequest($params)
+ * @method Response GetBucketAclRequest($params)
+ * @method Response GetBucketInfoRequest($params)
+ * @method Response GetBucketLifecycleRequest($params)
+ * @method Response GetBucketListsRequest($params)
+ * @method Response GetBucketLoggingRequest($params)
+ * @method Response GetBucketPolicyRequest($params)
+ * @method Response GetBucketRefererRequest($params)
+ * @method Response GetBucketRegionsRequest($params)
+ * @method Response GetBucketTagsRequest($params)
+ * @method Response GetBucketVersionRequest($params)
+ * @method Response GetBucketWebsiteRequest($params)
+ * @method Response GetLoggingBucketRequest($params)
+ * @method Response GetObjectDownloadUrlRequest($params)
+ * @method Response GetObjectInfoRequest($params)
+ * @method Response GetObjectListsRequest($params)
+ * @method Response GetObjectVersionListsRequest($params)
+ * @method Response MultiDeleteObjectRequest($params)
+ * @method Response SetBucketLoggingRequest($params)
+ * @method Response SetBucketPolicyRequest($params)
+ * @method Response SetBucketRefererRequest($params)
+ * @method Response SetBucketVersionRequest($params)
+ * @method Response SetBucketWebsiteRequest($params)
+ * @method Response SetObjectAccessRequest($params)
  */
 class Client
 {
