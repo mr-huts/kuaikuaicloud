@@ -41,6 +41,9 @@ use kuaikuaicloud\oss\Exception\SDKException;
  * @method Response SetBucketVersionRequest($params)
  * @method Response SetBucketWebsiteRequest($params)
  * @method Response SetObjectAccessRequest($params)
+ * @method Response GetObjectTagRequest($params)
+ * @method Response PutObjectTagRequest($params)
+ * @method Response DeleteObjectTagRequest($params)
  */
 class Client
 {
